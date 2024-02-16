@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryCarDiagnosticsMVC", "HistoryCarDiagnosticsMVC\HistoryCarDiagnosticsMVC.csproj", "{EA3B71C1-D240-44A5-8AD9-0318716A9953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{723FFD66-1186-4185-B831-CB127CF1835A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F4F6BF7D-ACCB-4210-8461-F485B2D4D2CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{51007EBE-4701-4898-8958-E0564BED7BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3B205AD3-7C2C-4FDD-9934-04F22229BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryCarDiagnosticsMVC.Application", "HistoryCarDiagnosticsMVC.Application\HistoryCarDiagnosticsMVC.Application.csproj", "{A671EC11-4135-4C7C-A3AE-941ECE3CC05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryCarDiagnosticsMVC.Domain", "HistoryCarDiagnosticsMVC.Domain\HistoryCarDiagnosticsMVC.Domain.csproj", "{EB2457A3-25A4-49EA-BD94-5600EF34567A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryCarDiagnosticsMVC.Infrastructure", "HistoryCarDiagnosticsMVC.Infrastructure\HistoryCarDiagnosticsMVC.Infrastructure.csproj", "{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA3B71C1-D240-44A5-8AD9-0318716A9953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3B71C1-D240-44A5-8AD9-0318716A9953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3B71C1-D240-44A5-8AD9-0318716A9953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3B71C1-D240-44A5-8AD9-0318716A9953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A671EC11-4135-4C7C-A3AE-941ECE3CC05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A671EC11-4135-4C7C-A3AE-941ECE3CC05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A671EC11-4135-4C7C-A3AE-941ECE3CC05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A671EC11-4135-4C7C-A3AE-941ECE3CC05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2457A3-25A4-49EA-BD94-5600EF34567A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2457A3-25A4-49EA-BD94-5600EF34567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2457A3-25A4-49EA-BD94-5600EF34567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2457A3-25A4-49EA-BD94-5600EF34567A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA3B71C1-D240-44A5-8AD9-0318716A9953} = {723FFD66-1186-4185-B831-CB127CF1835A}
+		{A671EC11-4135-4C7C-A3AE-941ECE3CC05E} = {3B205AD3-7C2C-4FDD-9934-04F22229BD42}
+		{EB2457A3-25A4-49EA-BD94-5600EF34567A} = {F4F6BF7D-ACCB-4210-8461-F485B2D4D2CA}
+		{49B4B73E-0A58-4BC7-89D6-3551AEBF2E1C} = {51007EBE-4701-4898-8958-E0564BED7BED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0237CDD-34CE-44F1-8E2A-6F04FF4809BD}
+	EndGlobalSection
+EndGlobal
